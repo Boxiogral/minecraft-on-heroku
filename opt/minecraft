@@ -63,6 +63,7 @@ echo "server-ip=127.0.0.1" >> /app/server.properties # add public ip to server
 # disable online mode for cracked players
 echo "online-mode=true" >> /app/server.properties
 echo "enable-command-block=true" >> /app/server.properties
+echo "view-distance=3" >> /app/server.properties
 touch whitelist.json
 touch banned-players.json
 touch banned-ips.json
