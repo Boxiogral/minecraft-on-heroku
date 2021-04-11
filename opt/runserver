@@ -11,4 +11,5 @@ case $limit in
   ;;
 esac
 export NGROKIP=$(./ngrokgetip)
-java -Xms${heap} -Xmx${heap} -jar spigot.jar nogui
+screen -S minecraft java -Xms${heap} -Xmx${heap} -jar spigot.jar nogui
+sleep 99999 
